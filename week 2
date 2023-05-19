@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulier</title>
+<head>
+</head>
+
+<body>
+    
+<form method="POST">
+        <label for="username">Gebruikersnaam:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Wachtwoord:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Verzenden">
+    </form>
+
+    <?php
+        $username = "username";
+        $password = "password";
+
+        echo "Gebruikersnaam: " . $username . "<br>";
+        echo "Wachtwoord: " . $password;
+    
+
+        $variabele1 = 10;
+        $variabele2 = 10;
+        
+        if ($variabele1 == $variabele2) { // is het gelijk aan?
+            echo "De twee waarden zijn gelijk";
+        } else {
+            echo "De twee waarden zijn ongelijk";
+        }
+
+    ?>
+</body>
+
+
+
+
+
